@@ -1,0 +1,4 @@
+2023/12/20-13:35:27.532104 7f8630ad6700 Recovering log #12
+2023/12/20-13:35:27.538650 7f8630ad6700 Delete type=3 #10
+2023/12/20-13:35:27.538681 7f8630ad6700 Delete type=0 #12
+2023/12/21-11:54:53.842901 7f862aa4d700 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

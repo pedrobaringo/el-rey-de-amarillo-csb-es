@@ -1,0 +1,109 @@
+{
+  "id": "el-rey-de-amarillo-csb-es",
+  "title": "El Rey de Amarillo (CSB) (ES)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Pedro Baringo Carreras",
+      "discord": "pedrobari",
+      "url": "https://github.com/pedrobaringo",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "modules/yellowsign.js"
+  ],
+  "styles": [
+    "./styles/ReydeAmarilloStyles.css"
+  ],
+  "packs": [
+    {
+      "name": "actores-paris",
+      "label": "Actores París",
+      "path": "packs/actores-paris",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "objetos",
+      "label": "Objetos",
+      "path": "packs/objetos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "actores-las-guerras",
+      "label": "Actores Las Guerras",
+      "path": "packs/actores-las-guerras",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "actores-secuelas",
+      "label": "Actores Secuelas",
+      "path": "packs/actores-secuelas",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "objetos-secuelas",
+      "label": "Objetos Secuelas",
+      "path": "packs/objetos-secuelas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "actores-nueva-normalidad",
+      "label": "Actores Nueva Normalidad",
+      "path": "packs/actores-nueva-normalidad",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es",
+  "manifest": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/latest/download/module.json",
+  "download": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/download/1.0.0/el-rey-de-amarillo-csb-es.zip"
+}

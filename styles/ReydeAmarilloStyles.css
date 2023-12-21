@@ -1,0 +1,933 @@
+@font-face {
+    font-family: "Mayflower";
+    src: url("../styles/fonts/MAYFLOWERSMOOTHPRO.OTF");
+}
+.window-app .window-content {
+	background:white;
+	position: relative;
+	z-index:-2;
+	margin:0px;
+}
+.checkboxamarillo input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../assets/CheckAmarillo2.webp);
+	background-size:35px;
+	background-repeat: no-repeat;
+	flex: 0 0 35px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.checkboxamarillo input[type="checkbox"]:checked {
+    background: url(../assets/CheckAmarilloChecked2.webp);
+	background-size:35px;
+	-webkit-filter: none !important;
+}
+.checkboxamarillo {
+	margin:0px 0px 0px 5px;
+}
+.tabpanelpar nav{
+	font-family: "Mayflower";
+	font-size: 25px;
+	color:#4d4c4c;
+}
+.tabpanelpar nav.sheet-tabs{
+	border-top:0px;
+	border-bottom:4px;
+	border-right:0px;
+	border-left:0px;
+	border-style: solid;
+	border-color: #f9c1b0;
+}
+.tabpanelpar .item.active{
+	text-decoration: underline;
+	color:black;
+	text-shadow: none;
+}
+.textopar {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textopar input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #f9c1b0;
+}
+.paneltoppar {
+	grid-template-columns: auto 70%;
+}
+.panelimp {
+	grid-template-columns: auto auto;
+}
+.textotit1par {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.textotit1par h3{
+	margin:0px;
+}
+.textotablapar {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textotablapar a img{
+	display:none;
+}
+.textotablapar a{
+	background:none;
+	border:none;
+}
+.textotablapar table{
+	background:none;
+	border-bottom: none;
+	border-top: 1.5px solid #f9c1b0;
+}
+.panelinvpar {
+	margin:0px;
+}
+.panelgerpar {
+	margin:0px;
+}
+.textotablapar .fa-trash {
+	font-size:10px;
+}
+.textotablapar table tr:nth-child(even){
+	background-color:  transparent;
+}
+.tablaherconmpar {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.tablaherconmpar a img{
+	display:none;
+}
+.tablaherconmpar a{
+	background:none;
+	border:none;
+}
+.tablaherconmpar table{
+	background:none;
+	border: none;
+}
+.tablaherconmpar table tr:nth-child(even){
+	background-color:  transparent;
+}
+.tablaherconmpar table tr{
+	font-size: 20px;
+	font-weight:700;
+	display:block;
+	width:100%;
+	padding:0px;
+    margin:10px 0px 0px 0px;
+}
+
+.tablaherconmpar table td{
+    display:block;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    clear:block;
+}
+.tablaherconmpar .custom-system-dynamic-table-row-icons{
+	font-size: 12px;
+	display: block;
+	position: relative;
+	left: 95%;
+}
+.texttable2par p{
+	font-size: 17px;
+	font-weight:200;
+}
+.panelgranheridpar {
+	border-top: 4px solid;
+	padding-top:10px;
+	border-color: #f9c1b0;
+}
+.panelheridaspar {
+	padding-bottom:5px;
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:21px;
+	background-color:#ef9c91;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoRosa.webp);
+  border-image-slice: 52;
+  border-image-repeat: round;
+}
+.panelconmpar {
+	padding-bottom:5px;
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:21px;
+	background-color:#f0c500;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoAmarillo.webp);
+  border-image-slice: 52;
+  border-image-repeat: round;
+}
+.paneltitulohab {
+	padding-bottom:5px;
+	border-top:10px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:22px;
+	background-color:#fac2b0;
+	color: black;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoParRosaBanner.webp);
+  border-image-slice: 52;
+  border-image-repeat: round;
+}
+.textotit2par {
+	font-family: "Mayflower";
+	font-size: 20px;
+}
+.panelgranhabpar {
+	gap:0px;
+}
+.charname input{
+	font-family:'Mayflower';
+	font-size: 38px;
+	background-color: transparent;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: grey;
+}
+.itemname input{
+	font-family:'Mayflower';
+	font-size: 38px;
+	background-color: transparent;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.paneltirada {
+	gap:0px;
+	grid-template-columns: auto 18% 5% auto auto;
+}
+.botontiradapar {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+	border: 2px solid black;
+	background-color: #efefef;
+	padding:6px;
+	border-radius:6px;
+	box-shadow: 2px 2px 2px #eeeeee;
+	text-shadow:none;
+	margin-left:20px
+}
+.botontiradapar:hover {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+	border: 2px solid black;
+	background-color: #efefef;
+	padding:6px;
+	border-radius:6px;
+	box-shadow: 2px 2px 2px #b0b0b0 inset;
+	text-shadow:none;
+}
+.botontiradapar a:hover {
+	text-shadow:none;
+}
+.desplegableobj {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegableobj select{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: black;
+}
+.desplegableobj input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: black;
+}
+.chat-message {
+	background:none;
+	background-color:white;
+}
+.chat-message .message-content h1{
+font-family:'Mayflower';
+	font-size:25px;
+	text-align:center;
+	border-bottom:2px solid black;
+}
+.chat-message .message-content h2{
+font-family:'Mayflower';
+	font-size:20px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h3{
+font-family:'Mayflower';
+	font-size:25px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+	font-family:'Mayflower';
+	font-size:15px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content .fa-dice-d20 {
+	display:none;
+}
+.chat-message .message-content .custom-system-roll {
+	border:0px;
+	background-color:transparent;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Mayflower';
+	text-align:left;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: black;
+	white-space: normal;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Mayflower';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.tablaherconmpar .custom-system-dynamic-table-row-icons {
+	width:10px;
+}
+
+.tablecombatpar table{
+	background:none;
+	border-color: #f9c1b0;
+	border-width:2px;
+}
+.tablecombatpar table tr:nth-child(odd){
+	background-color:  #f8dad1;
+}
+.textotit1par input {
+	background:none;
+	border-style: solid;
+	border-width:0px 0px 1.5px 0px;
+	border-color: #f9c1b0;
+}
+.backgroundcolorpar {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#f5ece1;
+	z-index:-1;
+	margin:0px;
+}
+.backgroundcolorgerr {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#e3e0d4;
+	z-index:-1;
+	margin:0px;
+}
+.backgroundcolorsec {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#e5e3e2;
+	z-index:-1;
+	margin:0px;
+}
+.backgroundcolornunor {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#ffffff;
+	z-index:-1;
+	margin:0px;
+}
+.textoguerr {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textoguerr input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #78907b;
+}
+.tabpanelguerr nav{
+	font-family: "Mayflower";
+	font-size: 25px;
+	color:#4d4c4c;
+}
+.tabpanelguerr nav.sheet-tabs{
+	border-top:0px;
+	border-bottom:4px;
+	border-right:0px;
+	border-left:0px;
+	border-style: solid;
+	border-color: #78907b;
+}
+.tabpanelguerr .item.active{
+	text-decoration: underline;
+	color:black;
+	text-shadow: none;
+}
+.panelgranheridguerr {
+	border-top: 4px solid;
+	padding-top:10px;
+	border-color: #78907b;
+}
+.textotablaguerr  {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textotablaguerr a img{
+	display:none;
+}
+.textotablaguerr a{
+	background:none;
+	border:none;
+}
+.textotablaguerr table{
+	background:none;
+	border-bottom: none;
+	border-top: 1.5px solid #78907b;
+}
+.textotablaguerr .fa-trash {
+	font-size:10px;
+}
+.textotablaguerr table tr:nth-child(even){
+	background-color:  transparent;
+}
+.paneltitulohabguerr {
+	border-top:10px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#78907b;
+	color: white;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoGuerrVerde.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.panelheridasguerr {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#ef9c91;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoGuerrRosa.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.panelconmguerr {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#f0c500;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoGuerrAmarillo.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.paneltitulohabsec {
+	border-top:10px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#d2232c;
+	color: white;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoRojoSec.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.panelheridassec {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#ef9c91;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoRosaSec.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.panelconmsec {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#f0c500;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoAmarilloSec.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.textosec {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textosec input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #d2232c;
+}
+.tabpanelsec nav{
+	font-family: "Mayflower";
+	font-size: 25px;
+	color:#4d4c4c;
+}
+.tabpanelsec nav.sheet-tabs{
+	border-top:0px;
+	border-bottom:4px;
+	border-right:0px;
+	border-left:0px;
+	border-style: solid;
+	border-color: #d2232c;
+}
+.tabpanelsec .item.active{
+	text-decoration: underline;
+	color:black;
+	text-shadow: none;
+}
+.panelgranheridsec {
+	border-top: 4px solid;
+	padding-top:10px;
+	border-color: #d2232c;
+}
+.textotablasec  {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textotablasec a img{
+	display:none;
+}
+.textotablasec a{
+	background:none;
+	border:none;
+}
+.textotablasec table{
+	background:none;
+	border-bottom: none;
+	border-top: 1.5px solid #d2232c;
+}
+.textotablasec .fa-trash {
+	font-size:10px;
+}
+.textotablasec table tr:nth-child(even){
+	background-color:  transparent;
+}
+.tabpanelobj  nav{
+	font-family: "Mayflower";
+	font-size: 25px;
+	color:#4d4c4c;
+}
+.tabpanelobj nav.sheet-tabs{
+	border-top:0px;
+	border-bottom:4px;
+	border-right:0px;
+	border-left:0px;
+	border-style: solid;
+	border-color: black;
+}
+.tabpanelobj .item.active{
+	text-decoration: underline;
+	color:black;
+	text-shadow: none;
+}
+.desplegablepar {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegablepar select{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #f9c1b0;
+}
+.desplegablepar input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #f9c1b0;
+}
+.desplegableguerr {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegableguerr select{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #78907b;
+}
+.desplegableguerr input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #78907b;
+}
+.tablecombatguerr table{
+	background:none;
+	border-color: #78907b;
+	border-width:2px;
+}
+.tablecombatguerr table tr:nth-child(odd){
+	background-color:  #bdcdbf;
+}
+.textotit1guerr input {
+	background:none;
+	border-style: solid;
+	border-width:0px 0px 1.5px 0px;
+	border-color: #78907b;
+}
+.textotit1guerr {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.textotit1guerr h3{
+	margin:0px;
+}
+.desplegablesec {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegablesec select{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #d2232c;
+}
+.desplegablesec input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #d2232c;
+}
+.tablecombatsec table{
+	background:none;
+	border-color: #d2232c;
+	border-width:2px;
+}
+.tablecombatsec table tr:nth-child(odd){
+	background-color:  #efc7c9;
+}
+.textotit1sec input {
+	background:none;
+	border-style: solid;
+	border-width:0px 0px 1.5px 0px;
+	border-color: #d2232c;
+}
+.textotit1sec {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.textotit1sec h3{
+	margin:0px;
+}
+.textonunor {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textonunor input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #8cb4df;
+}
+.tabpanelnunor nav{
+	font-family: "Mayflower";
+	font-size: 25px;
+	color:#4d4c4c;
+}
+.tabpanelnunor nav.sheet-tabs{
+	border-top:0px;
+	border-bottom:4px;
+	border-right:0px;
+	border-left:0px;
+	border-style: solid;
+	border-color: #8cb4df;
+}
+.tabpanelnunor .item.active{
+	text-decoration: underline;
+	color:black;
+	text-shadow: none;
+}
+.panelgranheridnunor {
+	border-top: 4px solid;
+	padding-top:10px;
+	border-color: #8cb4df;
+}
+.textotablanunor  {
+	font-family: "Mayflower";
+	font-size: 17px;
+}
+.textotablanunor a img{
+	display:none;
+}
+.textotablanunor a{
+	background:none;
+	border:none;
+}
+.textotablanunor table{
+	background:none;
+	border-bottom: none;
+	border-top: 1.5px solid #8cb4df;
+}
+.textotablanunor .fa-trash {
+	font-size:10px;
+}
+.textotablanunor table tr:nth-child(even){
+	background-color:  transparent;
+}
+.paneltitulohabnunor {
+	border-top:10px;
+	border-left: 30px;
+	border-right: 30px;
+	border-bottom:30px;
+	background-color:#8cb4df;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoAzulNuNor.webp);
+  border-image-slice: 60;
+  border-image-repeat: round;
+}
+.panelheridasnunor {
+	border-top:15px;
+	border-left: 30px;
+	border-right: 30px;
+	border-bottom:30px;
+	background-color:#ef9c91;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoRosaNuNor.webp);
+  border-image-slice: 60;
+  border-image-repeat: round;
+}
+.panelconmnunor {
+	border-top:15px;
+	border-left: 30px;
+	border-right: 30px;
+	border-bottom:30px;
+	background-color:#f0c500;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoAmarilloNuNor.webp);
+  border-image-slice: 60;
+  border-image-repeat: round;
+}
+.desplegablenuenor {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegablenuenor select{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #8cb4df;
+}
+.desplegablenuenor input{
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #8cb4df;
+}
+.tablecombatnuenor table{
+	background:none;
+	border-color: #8cb4df;
+	border-width:2px;
+}
+.tablecombatnuenor table tr:nth-child(odd){
+	background-color:  #e8f3ff;
+}
+.textotit1nuenor input {
+	background:none;
+	border-style: solid;
+	border-width:0px 0px 1.5px 0px;
+	border-color: #8cb4df;
+}
+.textotit1nuenor {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.textotit1nuenor h3{
+	margin:0px;
+}
+.desplegableobjet {
+	font-family: "Mayflower";
+	font-size: 17px;
+	font-weight: 700;
+}
+.desplegableobjet select{
+	text-align:center;
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #d2232c;
+}
+.desplegableobjet input{
+	text-align:center;
+	background-color: transparent;
+	border-bottom:1.5px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: #d2232c;
+}
+.panelobjtop4 {
+	grid-template-columns: auto auto auto auto;
+}
+.panelobjtop {
+	grid-template-columns: auto auto;
+}
+.paneldescobj {
+	grid-template-columns: 90% auto;
+}
+.ocultar {
+	align-items:flex-start;
+	margin-top:22px;
+	margin-left:0px;
+}
+.etiq {
+	font-weight:200;
+	font-size:17px;
+}
+.panelvalessec {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#496835;
+	color: white;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoVerdeSec.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.panelgolpsec {
+	border-top:15px;
+	border-left: 20px;
+	border-right: 20px;
+	border-bottom:20px;
+	background-color:#d2232b;
+	color: white;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../assets/MarcoRojoSec.webp);
+  border-image-slice: 55;
+  border-image-repeat: stretch;
+}
+.ocultar input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../assets/Mostrar.webp);
+	background-size:20px;
+	background-repeat: no-repeat;
+	flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.ocultar input[type="checkbox"]:checked {
+    background: url(../assets/Ocultar.webp);
+	background-size:20px;
+	-webkit-filter: none !important;
+}
+.panelgranvalgolsec {
+	grid-template-columns: 47% 5% 47%;
+	border-top: 4px solid;
+	padding-top:10px;
+	gap:0px;
+	border-color: #d2232c;
+}
+.textoexito {
+	font-family: 'Signika';
+	font-size: 17px;
+	font-weight: 700;
+}
+.textoexito p{
+	margin:0px;
+}
