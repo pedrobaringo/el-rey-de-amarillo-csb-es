@@ -8,7 +8,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         "3", 
         "4",
         "5", 
-        'modules/yellow-sign-dice/assets/Simboloamarillo6_Bump.png'
+        'modules/el-rey-de-amarillo-csb-es/assets/Simboloamarillo6_Bump.png'
       ],
       bumpMaps:[
         , 
@@ -16,7 +16,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         , 
         ,
         , 
-        'modules/yellow-sign-dice/assets/Simboloamarillo6_Bump.png'
+        'modules/el-rey-de-amarillo-csb-es/assets/Simboloamarillo6_Bump.png'
       ],
       system: "yellowsignDice"
     });
@@ -29,7 +29,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         "3", 
         "4",
         "5", 
-        'modules/yellow-sign-dice/assets/Simboloamarillo6.png'
+        'modules/el-rey-de-amarillo-csb-es/assets/Simboloamarillo6.png'
       ],
       bumpMaps:[
         , 
@@ -37,7 +37,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         , 
         ,
         , 
-        'modules/yellow-sign-dice/assets/Simboloamarillo6_Bump.png'
+        'modules/el-rey-de-amarillo-csb-es/assets/Simboloamarillo6_Bump.png'
       ],
       system: "yellowsignDiceWhite"
     });
