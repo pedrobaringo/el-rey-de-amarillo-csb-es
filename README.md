@@ -13,6 +13,7 @@
   - [Pestaña de Características](#pestaña-de-características)
   - [Pestaña de Combate](#pestaña-de-combate)
 - [Crear Objetos](#crear-objetos)
+  - [HabGen_Template: Para las Habilidades Generales](#habgen_Template:-para-las-habilidades-generales)
 - [Hacer tiradas](#hacer-tiradas)
 - [Iniciativa y Combate](#iniciativa-y-combate)
 - [¿Cómo importar templates después de una actualización?](#c%C3%B3mo-importar-templates-despu%C3%A9s-de-una-actualizaci%C3%B3n)
@@ -123,14 +124,30 @@ Abajo de todo tenemos la suma de todos los márgenes.
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
 Los tipos son:
-* **Armas_CaC_Template**: Para armas Cuerpo a Cuerpo, solo para PJ.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/032ce1b5-5de8-4cff-9050-ca47a1a1ccd5)
+## HabGen_Template: Para las Habilidades Generales
 
-* **Armas_Dist_Template**: Para armas a Distancia, solo para PJ.
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/179171e7-acb4-4714-91d2-5f5078f32bbf)
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/cf9ecdba-2816-4545-b2bf-cc294ce6667e)
+En la parte superior debemos elegir a que categoría corresponde (Físico, Presencia o Concentración).
 
+En la pestaña de Configuración podemos definir el Valor de la habilidad y la Reserva que nos queda de puntos. Tambien tenemos el botón de Refrescar para que la Reserva se iguale al Valor.
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/79085c92-ce6b-4c7e-87b3-f4e2ab4c5844)
+
+En la pestaña de Tiradas podemos seleccionar cuantos puntos gastar de los que nos quedan en la reserva, añadir modificadores si los hubiese y tenemos dos botones, uno para hacer una tirada sumando el gasto y los modificadores y otro para hacer un gasto simple de puntos (no afecta el modificador). El Gasto se restará de la Reserva al clickar en cualquiera de los dos botones.
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/db12c2d3-fcef-4fd0-97a4-89aae60f8400)
+
+Debajo podemos añadir una descripción de la habilidad.
+
+## HabInv_Template: Para las Habilidades de Investigación
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/d37c1670-768c-47c3-b1a9-4c1cb116d640)
+
+En la parte superior debemos elegir a que categoría corresponde (Académica, Interpersonal o Técnica).
+
+Debajo podemos añadir una descripción de la habilidad.
   
 * **Complicacion_Template**: Para las Complicaciones, solo para PJ.
 
