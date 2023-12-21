@@ -26,7 +26,6 @@ Modulo de Foundry VTT con las templates de las fichas para el juego The Troubles
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace: 
 
-[![Video del tutorial](http://img.youtube.com/vi/2LBxsz_r_Wg/0.jpg)](http://www.youtube.com/watch?v=2LBxsz_r_Wg "Tutorial Foundry-The Troubleshooters")
 
 ## Instalación
 Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/latest/download/module.json
