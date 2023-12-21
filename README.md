@@ -119,7 +119,7 @@ En la tabla inferior debemos añadir el nombre de los personajes que participan.
 
 Abajo de todo tenemos la suma de todos los márgenes.
 
-![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/9b20d03b-2451-4e05-87b3-0f8e52daa9eb)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/224422c4-0801-4bc9-b76b-07b546f7204b)
 
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
