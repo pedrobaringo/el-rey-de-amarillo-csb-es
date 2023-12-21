@@ -1,4 +1,4 @@
-![Fondo Tutorial_Troubleshooters](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/2c371565-5415-438e-9ae2-4814cced86d0)
+![Fondo TutorialRey de Amarillo](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/b337ea49-2531-419f-b84f-ba3b2a9c8b49)
 
 # Fichas para El Rey de Amarillo en Custom System Builder
 
