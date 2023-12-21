@@ -9,8 +9,8 @@
   - [Pestaña de Habilidades](#pestaña-de-habilidades)
   - [Pestaña de Trasfondo](#pestaña-de-trasfondo)
   - [Heridas y Conmociones](#heridas-y-conmociones)
-- [Crear un PNJ](#crear-un-pnj)
-  - [Pestaña de Habilidades](#pestaña-de-habilidades-1)
+- [Crear un Enemigo](#crear-un-enemigo)
+  - [Pestaña de Características](#pestaña-de-características)
   - [Pestaña de Combate](#pestaña-de-combate-1)
   - [Pestaña de Descripción y Notas](#pestaña-de-descripción-y-notas-1)
 - [Crear Objetos](#crear-objetos)
@@ -32,7 +32,8 @@ Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en e
 ![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/ee2872dc-87c2-4d0f-97ce-2620dc215a51)
 
 Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás seis: "Actores París", "Actores Las Guerras", "Actores Secuelas", "Actores Nueva Normalidad", "Objetos" y "Objetos Secuelas".
-Es importante que importes primero los compendios "Objetos" (y el de "Objetos Secuelas" si vas a jugar en esa ambientación) y después los compendios de Actores correspondientes a la ambientación que vayas a jugar, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:
+
+**Es importante que importes primero los compendios "Objetos" (y el de "Objetos Secuelas" si vas a jugar en esa ambientación) y después los compendios de Actores correspondientes a la ambientación que vayas a jugar, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:**
 
 ![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/c39e60bd-ec9a-483a-8ef0-a6cfa198673b)
 
@@ -86,39 +87,39 @@ En la parte inferior de la ficha estan los apartados donde se mostrarán las her
 
 ![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/bfd21f57-97c8-4aaa-b75b-23a1c4ca653f)
 
-## Crear un PNJ
+## Crear un Enemigo
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/8968dfd6-5c10-4106-93c1-46780300058a)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/f3bee316-2607-4708-ad22-41b9f7a2cdf7)
 
-~~Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_Template segun el siguiente criterio:~~
-~~* Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PNJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.~~
-~~* Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PNJ_Template"**.~~
+Aqui tenemos que seleccionar la template correspondiente a la ambientación que vayamos a jugar:
 
-Aqui tenemos que seleccionar la template llamada PNJ_Template_def.
+- París: "Enemigo_Paris_Template"
+- Las Guerras: "Enemigo_LasGuerras_Template"
+- Secuelas: "Enemigo_Secuelas_Template"
+- Nueva Normalidad: "Enemigo_Nueva Normalidad_Template"
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/7ccdcee5-3130-4a9d-8ed1-c59baf771db3)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/cf05941c-0379-4d0b-a5ff-3e8da2a7582e)
 
-En la parte de arriba se pueden poner la vitalidad máxima y actual y podemos asignarle la iniciativa si es un valor fijo o hacer check en la casilla de encima si la iniciativa es con una tirada de Acción.
+En la parte superior podemos seleccionar la dificultad y asignar las dificultades correspondientes a los objetivos de los Personajes al enfrentarse a éste enemigo.
 
-Tambien apareceran aqui las etiquetas que arrastremos a este personaje y la casilla de Dar la Vuelta a las tiradas si le arrastramos la correspondiente etiqueta (que está en la carpeta "Etiquetas Adversarios").
+### Pestaña de Características
+Aquí podemos rellenar los campos del enemigo y la descripción.
 
-### Pestaña de Habilidades
-En esta pestaña podemos poner los valores de ha habilidad básica y Especialista así como añadir más habilidades con el botón +.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/adc9089d-7058-4893-9c86-81908d5062d4)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/88f09903-9467-45e9-9ff8-cb938c0a2cd6)
 
 ### Pestaña de Combate
-En esta pestaña podeis añadir las armas con el botón + con todas sus estadisticas, podeis definir el valor de defensa si tiene así como la protección.
+En esta pestaña podemos configurar las condiciones del enfrentamiento con este enemigo.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/ea1d1cb3-49ce-4156-be2c-23ce75eaba0a)
+Primero seleccionamos el número de jugadores que participan (de 1 a 6), lo que determinará cuantas columnas hay en la tabla ifnerior. Después seleccionamos el objetivo del enfrentamiento (Escapar, otro o matar), lo que determinará la dificultad base del enfrentamiento. Finalmente podemos añadir un ajuste de dificultad según las condiciones del enfrentamiento y se nos mostrará la dificultad total.
 
-### Pestaña de Descripción y Notas
-En esta última pestaña podemos tomar notas o describir al personaje.
+En la tabla inferior debemos añadir el nombre de los personajes que participan. Añadimos el gasto que haya seleccionado cada jugador (solo es indicativo por si se quiere utilizar para determinar el orden). En resultado añadimos el resultado de la tirada completo (gasto incluido si lo ha habido, no se suma con el añadido en la tabla). Finalemnte tenemos el márgen que se calcula restando la dificultad del resultado. Si el margen es superior a 3 se marcará como un 3 tachado y en la suma total se considerará que es un 3.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/7670cc6d-3ca5-4b7a-9203-76fd6ddf92af)
+Abajo de todo tenemos la suma de todos los márgenes.
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/9b20d03b-2451-4e05-87b3-0f8e52daa9eb)
 
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
