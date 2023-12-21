@@ -15,10 +15,10 @@
 - [Crear Objetos](#crear-objetos)
   - [HabGen_Template: Para las Habilidades Generales](#habgen_template-para-las-habilidades-generales)
   - [HabInv_Template: Para las Habilidades de Investigación](#habinv_template-para-las-habilidades-de-investigación)
-- [Hacer tiradas](#hacer-tiradas)
-- [Iniciativa y Combate](#iniciativa-y-combate)
+  - [Her_Conm_Template: Para las Heridas y Conmociones](#her_conm_template-para-las-heridas-y-conmociones)
+  - [Objetivo_Template: Para los Objetivos en Secuelas](#objetivo_template-para-los-objetivos-en-secuelas)
+  - [Vales_Golpes_Template: Para los Vales y Golpes en Secuelas](#vales_golpes_template-para-los-vales-y-golpes-en-secuelas)
 - [¿Cómo importar templates después de una actualización?](#c%C3%B3mo-importar-templates-despu%C3%A9s-de-una-actualizaci%C3%B3n)
-- [Posibles problemas](#posibles-problemas)
 
 ## Introducción
 Modulo de Foundry VTT con las templates de las fichas para el juego The Troubleshooters en español para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
@@ -150,69 +150,37 @@ En la parte superior debemos elegir a que categoría corresponde (Académica, In
 
 Debajo podemos añadir una descripción de la habilidad.
   
-* **Complicacion_Template**: Para las Complicaciones, solo para PJ.
+## Her_Conm_Template: Para las Heridas y Conmociones
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/5d88451e-87c1-4c0e-8cc0-255f2abea010)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/d773cc24-58c2-4a00-9f86-70d0c0f83145)
 
+En la parte superior elegimos si es una Herida o una Conmoción y su Gravedad. Después tenemos la Descripción donde escribir los efectos que tiene.
 
-* **Talento_Template**: Para los Talentos, solo para PJ.
+## Objetivo_Template: Para los Objetivos en Secuelas
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/e5b862ba-1c5a-43c9-a032-1d46e63298ae)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/ae9897d8-dd7a-4614-9b0f-3ea3f223de19)
 
+En este objeto tenemos los campos de Etiquetas (se pueden ver afectados por Vales y/o Golpes), la Descripción y los Posibles Aliados y Adversarios.
 
-* **Estados_Template**: Para los Estados, sirve para PJs y PNJs.
+## Vales_Golpes_Template: Para los Vales y Golpes en Secuelas
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/ebeb889d-d5a1-4942-bf53-60948138272d)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/cf306d1c-65a8-4ffc-af2c-10f441807fb6)
 
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/64008bf0-a9bf-4a35-bb1c-ed2df0710dc3)
 
-* **Etiquetas_Template**: Para las etiquetas de los PNJs.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/33e16ba9-d43c-479c-a3da-991a1955bbd5)
-
-## Hacer tiradas
-Para hacer tiradas simplemente se tiene que hacer click en la habilidad o icono de dado correspondiente o en el botón en el caso de ataques. Saldrá el mensaje en el chat con los botones para dar la vuelta a la tirada gastando puntos de Historia (se restan automaticamente) y el Daño si corresponde.
-Al clickar en los botones se genera un nuevo mensaje con el resultado correspondiente a la acción. Si sale un resultado de Karma se suma automaticamente el punto de Historia a la ficha del Personaje.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/8e6f3f8f-ca9e-4579-8fee-6a63a356e79b)
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/e4918cd5-30e8-471e-b3cc-bae567ec225a)
-
-Para aplicar un modificador a la tirada, se deberá pulsar la tecla "Mayus" mientras se hace click. Aparecerá un dialogo donde podemos asignar el modificador positivo o negativo. Esto funciona solo en las tiradas donde puede haber modificador.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/14c370ba-017a-4d69-b5e8-5594f2e2bbea)
-
-## Iniciativa y Combate
-Antes de empezar un combate, todos los PJs y los PNJs que tengan de Iniciativa una tirada de acción, deberan hacer click en su iniciativa para que se lancen los dados y se calcule.
-
-Solo cuando lo hayan hecho todos se podrá "tirar" la iniciativa en el menú de "Encuentros de Combate". Se ordenarán los actores de mayor iniciativa a menor.
-
-Como caso particular, si se hace una acción "¡PAM! - Disparo preciso" la iniciativa en la ficha bajará en 2 puntos automaticamente, pero se tendrá que volver a calcular para el siguiente turno en "Encuentros de Combate".
-
-En el caso de "¡RATATATA! - Vaciar el Arma" saldrán dos botones de daño, el normal que se aplica si impactas a varios personajes y el "Daño a un solo objetivo" que añade dos dados al daño automaticamente si solo te concentras en un objetivo.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/99d65377-8e29-4f49-bba6-410e97babd60)
-
-Si el arma provoca daño adicional según el resultado debido a alguna etiqueta, se puede usar el macro que he añadido a este módulo o usar la fórmula **/r Yd6x6cs>=4** en el chat sustituyendo la Y por el número de dados a tirar.
+Primero tenemos que elegir el tipo (Vale o Golpe), asignarle un Valor y añadir la descripción con los efectos que pueda tener.
 
 ## ¿Cómo importar templates después de una actualización?
 Cuando suba actualizaciones que modifican las Templates se tendrán que volver a importar de los compendios. Para evitar que se dupliquen y no sepamos cuales son las nuevas tenemos que hacerlo de la siguiente forma:
 1. Vamos al apartado de compendios.
 2. Hacemos click izquierdo encima del compendio que vayamos a importar.
 3. Hacemos click en "Importar todo".
-4. Seleccionamos la carpeta "Templates Actores" o "Templates_Objetos"(es la que se creó cuando se importaron por primera vez).
+4. Seleccionamos la carpeta que se creó cuando se importaron por primera vez.
 5. Seleccionamos "Mantener ID del Documento"
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/ecc7a10b-3899-4a37-88b8-42c56829a400)
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/b2a41d22-d8be-4003-ad34-411636bca836)
 
 6. Hacemos click en "Si" y deberian importarse sustituyendo las ya existentes.
 7. Vamos a cada template y hacemos click en "Reload all character Sheets" o "Reload all item sheets". De esta forma se habrán actualizado todas las fichas con los cambios.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/2ec1aab1-5b6e-48cd-95d7-391c0bafd9b4)
-
 Si no se importan correctamente y nos encontramos con templates duplicadas, lo mejor es borrarlas todas y volver a importarlas. El problema es que después deberemos volver a seleccionar la template correspondiente para cada actor que hayamos creado.
-
-## Posibles problemas
-Debido a como esta creado el sistema Custom System Builder, tuve que implementar los botones del chat de una forma poco óptima. Esto puede provocar que algunas veces no aparezcan los botones o aparezcan en mensajes anteriores (creo que puede ser más habitual con conexiones lentas, pero no he podido probarlo).
-
-Este problema no afecta a los resultados de las tiradas y si se quiere dar la vuelta a la tirada se puede hacer mentalmente y restar los puntos de Historia manualmente en la ficha.
-
-En el caso que sucediese en una tirada de combate y no apareciese el botón de Daño, se puede hacer la tirada usando en el chat la siguiente formula (explotan los 6 y cuenta como éxitos los valores superiores o iguales a 4) sustituyendo Y por el número de dados de daño que se tirarian: **Yd6x6cs>=4** o usando la macro que se incluye en este módulo.
