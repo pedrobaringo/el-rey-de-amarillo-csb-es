@@ -25,6 +25,7 @@
 Modulo de Foundry VTT con las templates de las fichas para el juego The Troubleshooters en español para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace: 
+
 [![Video del tutorial](http://img.youtube.com/vi/uzD6I1UfKys/0.jpg)](http://www.youtube.com/watch?v=uzD6I1UfKys "Tutorial Foundry-El Rey de Amarillo")
 
 ## Instalación
