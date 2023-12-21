@@ -9,6 +9,7 @@
   - [Pestaña de Habilidades](#pestaña-de-habilidades)
   - [Pestaña de Trasfondo](#pestaña-de-trasfondo)
   - [Heridas y Conmociones](#heridas-y-conmociones)
+- [Crear un Objetivo para Secuelas](#crear-un-objetivo-para-secuelas)
 - [Crear un Enemigo](#crear-un-enemigo)
   - [Pestaña de Características](#pestaña-de-características)
   - [Pestaña de Combate](#pestaña-de-combate)
@@ -87,6 +88,30 @@ Nueva Normalidad:
 En la parte inferior de la ficha estan los apartados donde se mostrarán las heridas y conmociones que vaya recibiendo el personaje. Para añadirlas solo se tiene que arrastrar el "objeto" correspondiente a la ficha y aparecerá en la columna o columnas que correspondan.
 
 ![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/bfd21f57-97c8-4aaa-b75b-23a1c4ca653f)
+
+## Crear un Objetivo para Secuelas
+Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/c4c78f8e-7657-4b8b-bd01-5538bb57c384)
+
+Aqui tenemos que seleccionar la template "Objetivos_Secuelas_Template"
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/32a20b88-7d71-4b0b-80c0-68a902f0c02e)
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/fdcc429c-3ef8-49cc-bd05-af81b0433d16)
+
+En esta ficha podemos añadir objetivos arrastrando los objetos correspondientes que aparecerán en la parte superior. Haciendo click en el icono del ojo de la derecha podemos mostrar los detalles del objetivo.
+
+Tambien podemos definir los puntos objetivo para considerar que se ha conseguido el objetivo.
+
+Los Puntos conseguidos se iran actualizando a medida que se vayan añadiendo Vales y Golpes, sumando los valores que tengan.
+
+Debajo tenemos las columnas donde iran añadiendose las "cartas" de Vales y Golpes. Haciendo click en el icono de ojo del centro se mostrarán los detalles de las cartas.
+
+Ejemplo con todas las descripciones desplegadas:
+
+![image](https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/assets/148097688/44ff4a75-90ef-4fd9-95f1-dcbbf69d8667)
+
 
 ## Crear un Enemigo
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
