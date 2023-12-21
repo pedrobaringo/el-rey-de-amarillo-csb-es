@@ -217,7 +217,7 @@
 }
 .paneltirada {
 	gap:0px;
-	grid-template-columns: auto 18% 5% auto auto;
+	grid-template-columns: auto 15% 5% 30% auto auto;
 }
 .botontiradapar {
 	font-family: "Mayflower";
