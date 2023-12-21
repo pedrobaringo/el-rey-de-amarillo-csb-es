@@ -13,7 +13,7 @@
   - [Pestaña de Características](#pestaña-de-características)
   - [Pestaña de Combate](#pestaña-de-combate)
 - [Crear Objetos](#crear-objetos)
-  - [HabGen_Template: Para las Habilidades Generales](#habgen_template:-para-las-habilidades-generales)
+  - [HabGen_Template: Para las Habilidades Generales](#habgen_template-para-las-habilidades-generales)
 - [Hacer tiradas](#hacer-tiradas)
 - [Iniciativa y Combate](#iniciativa-y-combate)
 - [¿Cómo importar templates después de una actualización?](#c%C3%B3mo-importar-templates-despu%C3%A9s-de-una-actualizaci%C3%B3n)
