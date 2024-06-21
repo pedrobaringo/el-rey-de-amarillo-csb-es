@@ -1,7 +1,7 @@
 {
   "id": "el-rey-de-amarillo-csb-es",
   "title": "El Rey de Amarillo (CSB) (ES)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -11,20 +11,32 @@
       {
         "id": "custom-system-builder",
         "type": "system",
+        "compatibility": {
+		"minimum": "3.1.2",
+		"verified": "3.1.2"
+		}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
         "compatibility": {}
       }
     ]
   },
   "authors": [
     {
-      "name": "Pedro Baringo Carreras",
-      "discord": "pedrobari",
-      "url": "https://github.com/pedrobaringo",
+      "name": "Pedro Baringo",
+	  "url": "https://github.com/pedrobaringo",
+	  "discord": "pedrobari",
+	  "github": "pedrobaringo",
       "flags": {}
     }
   ],
   "esmodules": [
-    "modules/yellowsign.js"
+    "./modules/welcomemessage.js",
+	"modules/yellowsign.js"	
   ],
   "styles": [
     "./styles/ReydeAmarilloStyles.css"
@@ -105,5 +117,5 @@
   ],
   "url": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es",
   "manifest": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/download/1.0.2/el-rey-de-amarillo-csb-es.zip"
+  "download": "https://github.com/pedrobaringo/el-rey-de-amarillo-csb-es/releases/download/1.0.3/el-rey-de-amarillo-csb-es.zip"
 }
