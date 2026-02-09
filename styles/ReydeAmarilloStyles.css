@@ -2,11 +2,89 @@
     font-family: "Mayflower";
     src: url("../styles/fonts/MAYFLOWERSMOOTHPRO.OTF");
 }
-.window-app .window-content {
-	background:white;
-	position: relative;
-	z-index:-2;
-	margin:0px;
+.character .window-content, .equippableItem .window-content, .custom-dialog .window-content {
+	background: white;
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
+}
+.character input[type=text], .equippableItem input[type=text], .custom-dialog input[type=text]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+}
+.character input[type=number], .equippableItem input[type=number], .custom-dialog input[type=number]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+}
+.character select, .equippableItem select, .custom-dialog select{
+	background:transparent;
+	color: black;
+}
+.custom-system-user-inputs td button {
+    color: black;
+}
+.character summary:before, .equippableItem summary:before, .custom-dialog summary:before {
+	border-color: transparent transparent transparent #000000;
+}
+.character input[type="checkbox"]::before, .equippableItem input[type="checkbox"]::before, .custom-dialog input[type="checkbox"]::before {
+    content:"";
+
+}
+.character  input[type="checkbox"]:checked::after, .equippableItem  input[type="checkbox"]:checked::after, .custom-dialog  input[type="checkbox"]:checked::after {
+    content: "";
+}
+.character input[type="checkbox"]:checked::before, .equippableItem input[type="checkbox"]:checked::before,  .custom-dialog input[type="checkbox"]:checked::before {
+    content: "";
+}
+.custom-dialog .form-group > label {
+	color: black;
+}
+.character table, .equippableItem table, .custom-dialog table {
+	background:transparent;
+}
+.custom-system-number-field-control {
+	background:transparent;
+	color:black;
+	border:1px solid black;
+}
+.character input[type="radio"]::before, .equippableItem input[type="radio"]::before, .custom-dialog input[type="radio"]::before {
+    content:"\f10c";
+    color: black;
+    font-weight:normal;
+}
+.character input[type="radio"]:checked::before, .character  input[type="radio"]:checked::after, .equippableItem input[type="radio"]:checked::before,  .equippableItem  input[type="radio"]:checked::after, .custom-dialog input[type="radio"]:checked::before, .custom-dialog  input[type="radio"]:checked::after {
+    content: "\f192";
+    color: black;
+}
+.character .content-link, .equippableItem .content-link, .custom-dialog .content-link {
+  background:transparent;
+  color: black;
+  border: 0px;
+}
+.custom-system-user-input-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove black;
+    color: black
+}
+.custom-dialog .standard-form .form-footer > button {
+  color:black;
+  background:transparent;
+  border: 2px groove black;
+}
+.character .content-link, .equippableItem .content-link, .custom-dialog .content-link {
+  background:transparent;
+  color: black;
+  border: 0px;
+}
+.character , .equippableItem , .custom-dialog  {
+	color: black;
+}
+.character h3, .equippableItem h3, .custom-dialog h3 {
+	font-family: "Mayflower";
+	font-size:21px;
+	color: black;
 }
 .checkboxamarillo input[type="checkbox"] {
     -webkit-appearance: initial;
@@ -58,10 +136,10 @@
 	border-right:0px;
 	border-color: #f9c1b0;
 }
-.paneltoppar {
+.paneltoppar  > :first-child{
 	grid-template-columns: auto 70%;
 }
-.panelimp {
+.panelimp  > :first-child{
 	grid-template-columns: auto auto;
 }
 .textotit1par {
@@ -193,8 +271,11 @@
 	font-family: "Mayflower";
 	font-size: 20px;
 }
-.panelgranhabpar {
+.panelgranhabpar > :first-child{
 	gap:0px;
+}
+.textotablapar table tr td:last-child {
+	padding:0px;
 }
 .charname input{
 	font-family:'Mayflower';
@@ -215,7 +296,7 @@
 	border-left:0px;
 	border-right:0px;
 }
-.paneltirada {
+.paneltirada  > :first-child{
 	gap:0px;
 	grid-template-columns: auto 15% 5% 30% auto auto;
 }
@@ -339,49 +420,29 @@ font-family:'Mayflower';
 	border-width:0px 0px 1.5px 0px;
 	border-color: #f9c1b0;
 }
-.backgroundcolorpar {
-	display:block;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.npdxalZKZJkqZ4DU .window-content, .dEqJLzNKVUEdGoqP .window-content {
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
 	background-color:#f5ece1;
-	z-index:-1;
-	margin:0px;
 }
-.backgroundcolorgerr {
-	display:block;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.BqV9AG5SLqhjjDzS .window-content, .9xFAFsVvE66GXGCi .window-content {
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
 	background-color:#e3e0d4;
-	z-index:-1;
-	margin:0px;
 }
-.backgroundcolorsec {
-	display:block;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.g7AcPIslzqys8dc6 .window-content, .NAWCnc0KiGomwlMC .window-content, .VlCxsatMiNKRMlsV .window-content{
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
 	background-color:#e5e3e2;
-	z-index:-1;
-	margin:0px;
 }
-.backgroundcolornunor {
-	display:block;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.d1V6fMwUHYkrmYZc .window-content, .KJtFRHFYSzcfMrbh .window-content {
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
 	background-color:#ffffff;
-	z-index:-1;
-	margin:0px;
 }
 .textoguerr {
 	font-family: "Mayflower";
@@ -593,6 +654,7 @@ font-family:'Mayflower';
 	font-family: "Mayflower";
 	font-size: 17px;
 	font-weight: 700;
+	flex-wrap: wrap;
 }
 .desplegablepar select{
 	background-color: transparent;
@@ -614,6 +676,7 @@ font-family:'Mayflower';
 	font-family: "Mayflower";
 	font-size: 17px;
 	font-weight: 700;
+	flex-wrap: wrap;
 }
 .desplegableguerr select{
 	background-color: transparent;
@@ -657,6 +720,7 @@ font-family:'Mayflower';
 	font-family: "Mayflower";
 	font-size: 17px;
 	font-weight: 700;
+	flex-wrap: wrap;
 }
 .desplegablesec select{
 	background-color: transparent;
@@ -793,6 +857,7 @@ font-family:'Mayflower';
 	font-family: "Mayflower";
 	font-size: 17px;
 	font-weight: 700;
+	flex-wrap: wrap;
 }
 .desplegablenuenor select{
 	background-color: transparent;
@@ -855,13 +920,13 @@ font-family:'Mayflower';
 	border-right:0px;
 	border-color: #d2232c;
 }
-.panelobjtop4 {
+.panelobjtop4  > :first-child{
 	grid-template-columns: auto auto auto auto;
 }
-.panelobjtop {
+.panelobjtop  > :first-child{
 	grid-template-columns: auto auto;
 }
-.paneldescobj {
+.paneldescobj  > :first-child{
 	grid-template-columns: 90% auto;
 }
 .ocultar {
@@ -916,7 +981,7 @@ font-family:'Mayflower';
 	background-size:20px;
 	-webkit-filter: none !important;
 }
-.panelgranvalgolsec {
+.panelgranvalgolsec  > :first-child{
 	grid-template-columns: 47% 5% 47%;
 	border-top: 4px solid;
 	padding-top:10px;

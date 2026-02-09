@@ -72,6 +72,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonGuerras = document.getElementById(buttonIdGuerras);
@@ -95,6 +97,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonSecuelas = document.getElementById(buttonIdSecuelas);
@@ -122,6 +126,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonNuevNorm = document.getElementById(buttonIdNuevNorm);
@@ -145,6 +151,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				}, 100);
@@ -189,6 +197,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonGuerras = document.getElementById(buttonIdGuerras);
@@ -212,6 +222,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonSecuelas = document.getElementById(buttonIdSecuelas);
@@ -239,6 +251,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				const buttonNuevNorm = document.getElementById(buttonIdNuevNorm);
@@ -262,6 +276,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "welcomeMessage", true);
 						game.user.setFlag("el-rey-de-amarillo-csb-es", "lastVersion", game.modules.get("el-rey-de-amarillo-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				};
 				
